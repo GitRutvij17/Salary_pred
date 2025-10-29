@@ -1,0 +1,68 @@
+# ================================
+# PYTHON & DATA SCIENCE PROJECTS
+# ================================
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- IDE/Editor folders ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS generated files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs and temp files ---
+*.log
+*.tmp
+*.bak
+*.swp
+
+# --- Model and data files ---
+# (Prevent large/binary files from being pushed)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.db
+*.sqlite
+*.pkl
+*.h5
+*.hdf5
+*.model
+*.joblib
+*.sav
+
+# --- Output or results folders ---
+/outputs/
+/results/
+/checkpoints/
+/data/
+/models/
+/datasets/
+
+# --- Reports or generated files ---
+*.pdf
+*.docx
+*.pptx
+*.html
+
+# --- Environment files ---
+*.env
+.env.*
